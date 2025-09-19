@@ -18,5 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # Root を API ルートにマッピング
+    path('', include('tracker.urls')),
     path('api/', include('tracker.urls')),
 ]
