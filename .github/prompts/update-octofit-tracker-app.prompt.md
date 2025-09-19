@@ -1,6 +1,6 @@
 ---
 mode: 'agent'
-model: GPT-4.1
+model: GPT-5
 description: 'Update OctoFit Tracker Django app to reflect MongoDB setup, CORS config, and API root exposure.'
 ---
 
